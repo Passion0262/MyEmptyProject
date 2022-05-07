@@ -23,7 +23,7 @@ public class MyKafKaProducer extends Thread{
 
         // 若要配多个服务器，用逗号隔开
         // 注：服务器要开放端口，若云服务器还要在server.properties配置内网IP和外网IP
-        properties.put(ProducerConfig.BOOTSTRAP_SERVERS_CONFIG, "123.60.32.74:9093");
+        properties.put(ProducerConfig.BOOTSTRAP_SERVERS_CONFIG, "123.60.32.74:9092");
         properties.put(ProducerConfig.CLIENT_ID_CONFIG, "my-producer");
         properties.put(ProducerConfig.KEY_SERIALIZER_CLASS_CONFIG,
                 IntegerSerializer.class.getName());

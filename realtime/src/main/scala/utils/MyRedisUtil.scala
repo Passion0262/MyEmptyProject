@@ -16,7 +16,9 @@ object MyRedisUtil {
   def build():Unit = {
     val prop = MyPropertiesUtil.load("config.properties")
     val host = prop.getProperty("redis.host")
-    val port = prop.getProperty("redis.port")
+    val port = prop.getProperty("redis.port").toInt
+    val timeout = prop.getProperty("redis.timeout").toInt
+    val password = prop.getProperty("redis.password")
 
     val jedisPoolConfig: JedisPoolConfig = new JedisPoolConfig
     jedisPoolConfig.setMaxTotal(100)  //最大连接数
@@ -26,11 +28,12 @@ object MyRedisUtil {
     jedisPoolConfig.setMaxWaitMillis(5000)//忙碌时等待时长 毫秒
     jedisPoolConfig.setTestOnBorrow(true) //每次获得连接的进行测试
 
-    jedisPool=new JedisPool(jedisPoolConfig,host,port.toInt)
+//    jedisPool=new JedisPool(jedisPoolConfig,host,port.toInt)
+    jedisPool=new JedisPool(jedisPoolConfig,host,port,timeout,password)
   }
 
   //获取Jedis客户端
-  def getJedisClient():Jedis ={
+  def getJedisClient:Jedis ={
     if(jedisPool == null){
       build()
     }
@@ -38,7 +41,7 @@ object MyRedisUtil {
   }
 
   def main(args: Array[String]): Unit = {
-    val jedis = getJedisClient()
+    val jedis = getJedisClient
     println(jedis.ping())
   }
 

@@ -1,0 +1,211 @@
+Starting LoggerApplication using Java 1.8.0_171 on Shadow.local with PID 98141 (/Users/shadow/IdeaProjects/MyEmptyProject/logger/target/classes started by shadow in /Users/shadow/IdeaProjects/MyEmptyProject)
+No active profile set, falling back to 1 default profile: "default"
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.60]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 2012 ms
+Starting ProtocolHandler ["http-nio-8080"]
+Tomcat started on port(s): 8080 (http) with context path ''
+Started LoggerApplication in 3.494 seconds (JVM running for 5.097)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 10 ms
+{
+    "type": 1
+}
+{"hello":"world"}
+'{hello:world}'
+Starting LoggerApplication using Java 1.8.0_171 on Shadow.local with PID 7298 (/Users/shadow/IdeaProjects/MyEmptyProject/logger/target/classes started by shadow in /Users/shadow/IdeaProjects/MyEmptyProject)
+The following 1 profile is active: "default"
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.60]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 4645 ms
+Starting ProtocolHandler ["http-nio-8080"]
+Tomcat started on port(s): 8080 (http) with context path ''
+Started LoggerApplication in 8.86 seconds (JVM running for 11.362)
+Starting LoggerApplication using Java 1.8.0_171 on Shadow.local with PID 20901 (/Users/shadow/IdeaProjects/MyEmptyProject/logger/target/classes started by shadow in /Users/shadow/IdeaProjects/MyEmptyProject)
+The following 1 profile is active: "default"
+Tomcat initialized with port(s): 8088 (http)
+Initializing ProtocolHandler ["http-nio-8088"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.60]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 1613 ms
+Starting ProtocolHandler ["http-nio-8088"]
+Tomcat started on port(s): 8088 (http) with context path ''
+Started LoggerApplication in 2.686 seconds (JVM running for 4.132)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 6 ms
+Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public java.lang.String com.example.logger.controller.LoggerController.applog(java.lang.String)]
+Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public java.lang.String com.example.logger.controller.LoggerController.applog(java.lang.String)]
+Starting LoggerApplication using Java 1.8.0_171 on Shadow.local with PID 16549 (/Users/shadow/IdeaProjects/MyEmptyProject/logger/target/classes started by shadow in /Users/shadow/IdeaProjects/MyEmptyProject)
+The following 1 profile is active: "default"
+Tomcat initialized with port(s): 8088 (http)
+Initializing ProtocolHandler ["http-nio-8088"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.60]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 3702 ms
+Starting ProtocolHandler ["http-nio-8088"]
+Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8088 is already in use
+Pausing ProtocolHandler ["http-nio-8088"]
+Stopping service [Tomcat]
+Stopping ProtocolHandler ["http-nio-8088"]
+Destroying ProtocolHandler ["http-nio-8088"]
+
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8088 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8088 or configure this application to listen on another port.
+
+Starting LoggerApplication using Java 1.8.0_171 on Shadow.local with PID 19191 (/Users/shadow/IdeaProjects/MyEmptyProject/logger/target/classes started by shadow in /Users/shadow/IdeaProjects/MyEmptyProject)
+The following 1 profile is active: "default"
+Tomcat initialized with port(s): 8088 (http)
+Initializing ProtocolHandler ["http-nio-8088"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.60]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 1854 ms
+Starting ProtocolHandler ["http-nio-8088"]
+Tomcat started on port(s): 8088 (http) with context path ''
+Started LoggerApplication in 3.316 seconds (JVM running for 4.897)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 1 ms
+{
+    "type": 1
+}
+Starting LoggerApplication using Java 1.8.0_171 on Shadow.local with PID 34613 (/Users/shadow/IdeaProjects/MyEmptyProject/logger/target/classes started by shadow in /Users/shadow/IdeaProjects/MyEmptyProject)
+The following 1 profile is active: "default"
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.60]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 4225 ms
+Starting ProtocolHandler ["http-nio-8080"]
+Tomcat started on port(s): 8080 (http) with context path ''
+Started LoggerApplication in 8.169 seconds (JVM running for 10.348)
+Starting LoggerApplication using Java 1.8.0_171 on Shadow.local with PID 35596 (/Users/shadow/IdeaProjects/MyEmptyProject/logger/target/classes started by shadow in /Users/shadow/IdeaProjects/MyEmptyProject)
+The following 1 profile is active: "default"
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.60]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 2435 ms
+Starting ProtocolHandler ["http-nio-8080"]
+Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+Pausing ProtocolHandler ["http-nio-8080"]
+Stopping service [Tomcat]
+Stopping ProtocolHandler ["http-nio-8080"]
+Destroying ProtocolHandler ["http-nio-8080"]
+
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+Starting LoggerApplication using Java 1.8.0_171 on Shadow.local with PID 42711 (/Users/shadow/IdeaProjects/MyEmptyProject/logger/target/classes started by shadow in /Users/shadow/IdeaProjects/MyEmptyProject)
+The following 1 profile is active: "default"
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.60]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 1910 ms
+Starting ProtocolHandler ["http-nio-8080"]
+Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+Pausing ProtocolHandler ["http-nio-8080"]
+Stopping service [Tomcat]
+Stopping ProtocolHandler ["http-nio-8080"]
+Destroying ProtocolHandler ["http-nio-8080"]
+
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+Starting LoggerApplication using Java 1.8.0_171 on Shadow.local with PID 42952 (/Users/shadow/IdeaProjects/MyEmptyProject/logger/target/classes started by shadow in /Users/shadow/IdeaProjects/MyEmptyProject)
+The following 1 profile is active: "default"
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.60]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 2617 ms
+Starting ProtocolHandler ["http-nio-8080"]
+Tomcat started on port(s): 8080 (http) with context path ''
+Started LoggerApplication in 4.714 seconds (JVM running for 6.983)
+Starting LoggerApplication using Java 1.8.0_171 on Shadow.local with PID 43874 (/Users/shadow/IdeaProjects/MyEmptyProject/logger/target/classes started by shadow in /Users/shadow/IdeaProjects/MyEmptyProject)
+The following 1 profile is active: "default"
+Tomcat initialized with port(s): 8081 (http)
+Initializing ProtocolHandler ["http-nio-8081"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.60]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 2990 ms
+Starting ProtocolHandler ["http-nio-8081"]
+Tomcat started on port(s): 8081 (http) with context path ''
+Started LoggerApplication in 4.972 seconds (JVM running for 6.355)
+Starting LoggerApplication using Java 1.8.0_171 on Shadow.local with PID 88527 (/Users/shadow/IdeaProjects/MyEmptyProject/logger/target/classes started by shadow in /Users/shadow/IdeaProjects/MyEmptyProject)
+The following 1 profile is active: "default"
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.60]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 1528 ms
+Starting ProtocolHandler ["http-nio-8080"]
+Tomcat started on port(s): 8080 (http) with context path ''
+Started LoggerApplication in 2.812 seconds (JVM running for 4.317)
+Starting LoggerApplication using Java 1.8.0_171 on Shadow.local with PID 88822 (/Users/shadow/IdeaProjects/MyEmptyProject/logger/target/classes started by shadow in /Users/shadow/IdeaProjects/MyEmptyProject)
+The following 1 profile is active: "default"
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.60]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 2018 ms
+Starting ProtocolHandler ["http-nio-8080"]
+Tomcat started on port(s): 8080 (http) with context path ''
+Started LoggerApplication in 3.124 seconds (JVM running for 4.74)

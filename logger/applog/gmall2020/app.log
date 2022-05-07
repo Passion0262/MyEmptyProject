@@ -1,0 +1,342 @@
+Starting LoggerApplication using Java 1.8.0_171 on Shadow.local with PID 48948 (/Users/shadow/IdeaProjects/MyEmptyProject/logger/target/classes started by shadow in /Users/shadow/IdeaProjects/MyEmptyProject)
+The following 1 profile is active: "default"
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.60]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 2016 ms
+Starting ProtocolHandler ["http-nio-8080"]
+Tomcat started on port(s): 8080 (http) with context path ''
+Started LoggerApplication in 3.595 seconds (JVM running for 5.707)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 11 ms
+{
+    "type": 1
+}
+ProducerConfig values: 
+	acks = -1
+	batch.size = 16384
+	bootstrap.servers = [123.60.32.74:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = use_all_dns_ips
+	client.id = producer-1
+	compression.type = none
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = true
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+[Producer clientId=producer-1] Instantiated an idempotent producer.
+Kafka version: 3.0.1
+Kafka commitId: 8e30984f43e64d8b
+Kafka startTimeMs: 1651821268685
+[Producer clientId=producer-1] Cluster ID: bnBEvGlkSWCL-y0Z-g0d5A
+[Producer clientId=producer-1] ProducerId set to 5002 with epoch 0
+Exception thrown when sending a message with key='null' and payload='{
+    "type": 1
+}' to topic gmall_start_bak:
+org.apache.kafka.common.errors.TimeoutException: Topic gmall_start_bak not present in metadata after 60000 ms.
+Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.kafka.KafkaException: Send failed; nested exception is org.apache.kafka.common.errors.TimeoutException: Topic gmall_start_bak not present in metadata after 60000 ms.] with root cause
+org.apache.kafka.common.errors.TimeoutException: Topic gmall_start_bak not present in metadata after 60000 ms.
+Exception thrown when sending a message with key='null' and payload='{
+    "type": 1
+}' to topic gmall_event_bak:
+org.apache.kafka.common.errors.TimeoutException: Expiring 1 record(s) for gmall_event_bak-0:120000 ms has passed since batch creation
+[Producer clientId=producer-1] Closing the Kafka producer with timeoutMillis = 30000 ms.
+Metrics scheduler closed
+Closing reporter org.apache.kafka.common.metrics.JmxReporter
+Metrics reporters closed
+App info kafka.producer for producer-1 unregistered
+Starting LoggerApplication using Java 1.8.0_171 on Shadow.local with PID 50518 (/Users/shadow/IdeaProjects/MyEmptyProject/logger/target/classes started by shadow in /Users/shadow/IdeaProjects/MyEmptyProject)
+The following 1 profile is active: "default"
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.60]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 1615 ms
+Starting ProtocolHandler ["http-nio-8080"]
+Tomcat started on port(s): 8080 (http) with context path ''
+Started LoggerApplication in 2.987 seconds (JVM running for 4.443)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 4 ms
+{
+    "type": 1
+}
+ProducerConfig values: 
+	acks = -1
+	batch.size = 16384
+	bootstrap.servers = [123.60.32.74:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = use_all_dns_ips
+	client.id = producer-1
+	compression.type = none
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = true
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+[Producer clientId=producer-1] Instantiated an idempotent producer.
+Kafka version: 3.0.1
+Kafka commitId: 8e30984f43e64d8b
+Kafka startTimeMs: 1651821466409
+[Producer clientId=producer-1] Cluster ID: bnBEvGlkSWCL-y0Z-g0d5A
+[Producer clientId=producer-1] ProducerId set to 5003 with epoch 0
+[Producer clientId=producer-1] Closing the Kafka producer with timeoutMillis = 30000 ms.
+Starting LoggerApplication using Java 1.8.0_171 on Shadow.local with PID 51105 (/Users/shadow/IdeaProjects/MyEmptyProject/logger/target/classes started by shadow in /Users/shadow/IdeaProjects/MyEmptyProject)
+The following 1 profile is active: "default"
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.60]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 2172 ms
+Starting ProtocolHandler ["http-nio-8080"]
+Tomcat started on port(s): 8080 (http) with context path ''
+Started LoggerApplication in 3.707 seconds (JVM running for 4.716)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 3 ms
+{
+    "type": 1
+}
+ProducerConfig values: 
+	acks = -1
+	batch.size = 16384
+	bootstrap.servers = [123.60.32.74:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = use_all_dns_ips
+	client.id = producer-1
+	compression.type = none
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = true
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+[Producer clientId=producer-1] Instantiated an idempotent producer.
+Kafka version: 3.0.1
+Kafka commitId: 8e30984f43e64d8b
+Kafka startTimeMs: 1651821528680
+[Producer clientId=producer-1] Cluster ID: bnBEvGlkSWCL-y0Z-g0d5A
+[Producer clientId=producer-1] ProducerId set to 5004 with epoch 0
+Exception thrown when sending a message with key='null' and payload='{
+    "type": 1
+}' to topic gmall_start_bak:
+org.apache.kafka.common.errors.TimeoutException: Expiring 1 record(s) for gmall_start_bak-0:120000 ms has passed since batch creation
+[Producer clientId=producer-1] Closing the Kafka producer with timeoutMillis = 30000 ms.
+Metrics scheduler closed
+Closing reporter org.apache.kafka.common.metrics.JmxReporter
+Metrics reporters closed
+App info kafka.producer for producer-1 unregistered
+Starting LoggerApplication using Java 1.8.0_171 on Shadow.local with PID 58634 (/Users/shadow/IdeaProjects/MyEmptyProject/logger/target/classes started by shadow in /Users/shadow/IdeaProjects/MyEmptyProject)
+The following 1 profile is active: "default"
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.60]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 1849 ms
+Starting ProtocolHandler ["http-nio-8080"]
+Tomcat started on port(s): 8080 (http) with context path ''
+Started LoggerApplication in 3.056 seconds (JVM running for 4.433)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 1 ms
+Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'message' for method parameter type String is not present]
+Starting LoggerApplication using Java 1.8.0_171 on Shadow.local with PID 59453 (/Users/shadow/IdeaProjects/MyEmptyProject/logger/target/classes started by shadow in /Users/shadow/IdeaProjects/MyEmptyProject)
+The following 1 profile is active: "default"
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.60]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 2877 ms
+Starting ProtocolHandler ["http-nio-8080"]
+Tomcat started on port(s): 8080 (http) with context path ''
+Started LoggerApplication in 4.094 seconds (JVM running for 5.578)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 3 ms
+Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'message' for method parameter type String is not present]
+Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'message' for method parameter type String is not present]

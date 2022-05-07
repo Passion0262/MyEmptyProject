@@ -1,0 +1,42 @@
+Starting LoggerApplication using Java 11.0.14.1 on Shadow.local with PID 29703 (/Users/shadow/IdeaProjects/MyEmptyProject/logger/target/classes started by shadow in /Users/shadow/IdeaProjects/MyEmptyProject)
+No active profile set, falling back to 1 default profile: "default"
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.60]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 2322 ms
+Starting ProtocolHandler ["http-nio-8080"]
+Tomcat started on port(s): 8080 (http) with context path ''
+Started LoggerApplication in 3.876 seconds (JVM running for 5.515)
+Starting LoggerApplication using Java 11.0.14.1 on Shadow.local with PID 33612 (/Users/shadow/IdeaProjects/MyEmptyProject/logger/target/classes started by shadow in /Users/shadow/IdeaProjects/MyEmptyProject)
+No active profile set, falling back to 1 default profile: "default"
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.60]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 3278 ms
+Starting ProtocolHandler ["http-nio-8080"]
+Tomcat started on port(s): 8080 (http) with context path ''
+Started LoggerApplication in 4.916 seconds (JVM running for 6.422)
+Starting LoggerApplication using Java 1.8.0_171 on Shadow.local with PID 51841 (/Users/shadow/IdeaProjects/MyEmptyProject/logger/target/classes started by shadow in /Users/shadow/IdeaProjects/MyEmptyProject)
+No active profile set, falling back to 1 default profile: "default"
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.60]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 1407 ms
+Starting ProtocolHandler ["http-nio-8080"]
+Tomcat started on port(s): 8080 (http) with context path ''
+Started LoggerApplication in 4.19 seconds (JVM running for 5.8)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 13 ms
+{
+    "type": 1
+}
+{
+    "type": 1
+}
